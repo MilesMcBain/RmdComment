@@ -1,0 +1,11 @@
+.review {
+border: 1px solid;
+margin: 10px 0px;
+padding:15px 10px 15px 50px;
+background-repeat: no-repeat;
+background-position: 10px 10px;
+color: #00529B;
+background-color: #CFF6FC;
+background-size: 32px 32px;
+background-image: url('https://cdn.rawgit.com/MilesMcBain/rmarkdown_comment/master/chat.png');
+}
