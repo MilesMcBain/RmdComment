@@ -1,0 +1,21 @@
+---
+title: "comment_test"
+author: "Miles McBain"
+date: "9 September 2016"
+output:
+  pdf_document: default
+  html_document:
+    css: https://cdn.rawgit.com/MilesMcBain/rmarkdown_comment/master/review.css
+header-includes:
+- \usepackage{soul}
+- \usepackage{xcolor}
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+source("~/repos/rmarkdown_comment/r/rmd_comment.R")
+```
+
+## R Markdown
+
+This is some text. `r rmd_comment(author="mmcbain", comment="This is a review comment on that text.")`
