@@ -5,7 +5,7 @@ date: "9 September 2016"
 output:
   pdf_document: default
   html_document:
-    css: https://cdn.rawgit.com/MilesMcBain/rmarkdown_comment/master/review.css
+    css: https://cdn.jsdelivr.net/gh/MilesMcBain/rmarkdown_comment/review.css
 header-includes:
 - \usepackage{soul}
 - \usepackage{xcolor}
